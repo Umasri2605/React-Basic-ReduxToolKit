@@ -14,6 +14,6 @@ export const todolistSlice=createSlice({
         state.todos.splice(action.payload,1)
      },
    } 
-})
+});
 export const{addTodo,deleteTodo}=todolistSlice.actions;
 export default todolistSlice.reducer;
