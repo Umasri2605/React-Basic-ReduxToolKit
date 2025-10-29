@@ -25,4 +25,4 @@ function Todolist() {
   )
 }
 
-export default Todolist
+export default Todolist;
