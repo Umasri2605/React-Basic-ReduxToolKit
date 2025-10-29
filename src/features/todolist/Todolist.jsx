@@ -14,9 +14,9 @@ function Todolist() {
       <ul>
         {
             todos.map((todo)=>{
-                return<li>
+                return<li className='list-unstyled'>
                     {todo}
-                    <button onClick={()=>{dispatch(deleteTodo())}}>Delete</button>
+                    <button onClick={()=>{dispatch(deleteTodo())}} className='border-danger-subtle bg-danger-subtle ms-3 mt-2'>Delete</button>
                     </li>
             })
         }
